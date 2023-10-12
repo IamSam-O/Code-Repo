@@ -30,6 +30,9 @@ function queryStringBuilder(fieldNameString, operatorString, dataArray, separato
 }
 
 
-var uniqueArr = arrayToFilter.filter(function(element,index, array){
-  return array.indexOf(element) === index
-})
+function findUniqueValues(arrayToFilter) {
+//when calling the function pass in the name of the array to filter 
+  return arrayToFilter.filter(function (element, index, array) {
+      return array.indexOf(element) === index;
+  });
+};

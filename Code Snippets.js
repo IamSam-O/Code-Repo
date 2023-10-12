@@ -28,3 +28,8 @@ function queryStringBuilder(fieldNameString, operatorString, dataArray, separato
     fieldNameString + operatorString + dataArray.join(separatorString);
   return queryString;
 }
+
+
+var uniqueArr = arrayToFilter.filter(function(element,index, array){
+  return array.indexOf(element) === index
+})

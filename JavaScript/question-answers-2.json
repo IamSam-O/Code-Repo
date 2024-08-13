@@ -1,0 +1,512 @@
+[
+  {
+      "Question Text": "Which metrics comprise the Completeness KPI for CMDB Health? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "Overall",
+      "Option 2": "Required",
+      "Option 3": "Audit",
+      "Option 4": "Recommended",
+      "Option 5": "",
+      "Correct Answer": "2, 4"
+  },
+  {
+      "Question Text": "Which of the below choices are horizontal pattern types? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "Application",
+      "Option 2": "Infrastructure",
+      "Option 3": "Software",
+      "Option 4": "Hardware",
+      "Option 5": "",
+      "Correct Answer": "1, 2"
+  },
+  {
+      "Question Text": "Which choices are necessary to launch any pattern? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "CI Serial Number Attribute",
+      "Option 2": "Data Certification",
+      "Option 3": "CI Type",
+      "Option 4": "CI Classification",
+      "Option 5": "",
+      "Correct Answer": "3, 4"
+  },
+  {
+      "Question Text": "When designing steps with operations requiring variables, it is best practice to do what?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "query targets for variables",
+      "Option 2": "always use scalar variables",
+      "Option 3": "design for a static environment",
+      "Option 4": "hard core variables",
+      "Option 5": "",
+      "Correct Answer": "2"
+  },
+  {
+      "Question Text": "Which method for deleting specific CIs is not discovered in 30 days?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Data Policy",
+      "Option 2": "Scheduled Job",
+      "Option 3": "UI Policy",
+      "Option 4": "Service Mapping",
+      "Option 5": "",
+      "Correct Answer": "1"
+  },
+  {
+      "Question Text": "SNMP Credentials require which of the following?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "usernames",
+      "Option 2": "read community strings",
+      "Option 3": "port 135 access",
+      "Option 4": "write community strings",
+      "Option 5": "",
+      "Correct Answer": "2"
+  },
+  {
+      "Question Text": "Which of the choices provides active discovery errors with a help link for each error?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Discovery Schedule",
+      "Option 2": "MID Server Dashboard",
+      "Option 3": "IP Address Failure Report",
+      "Option 4": "Discovery Dashboard",
+      "Option 5": "",
+      "Correct Answer": "4"
+  },
+  {
+      "Question Text": "What entry point type must a horizontal pattern have to execute from a process classifier?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "TCP entry point type or ALL entry point type.",
+      "Option 2": "It does not matter, it is triggered for all entry point types.",
+      "Option 3": "HTTP(S) entry point type if the pattern is running on a web server application.",
+      "Option 4": "A subnet entry point type.",
+      "Option 5": "",
+      "Correct Answer": "1"
+  },
+  {
+      "Question Text": "Which of the following does the ECC Queue provide? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "Login credentials for the MID Server host.",
+      "Option 2": "The process responsible for defining, analyzing, planning, measuring, and improving all aspects of the availability of IT services.",
+      "Option 3": "A connected flow of probe and sensor activity.",
+      "Option 4": "The actual XML payload that is sent to or from an instance.",
+      "Option 5": "",
+      "Correct Answer": "3, 4"
+  },
+  {
+      "Question Text": "Which of the following choices must be installed on a MID Server to run Credential-less Discovery?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Defender",
+      "Option 2": "Advanced IP Scanner",
+      "Option 3": "Credential-less Extension",
+      "Option 4": "Nmap",
+      "Option 5": "",
+      "Correct Answer": "4"
+  },
+  {
+      "Question Text": "Based on this image, which of the following statements are true? (Choose three.)  ",
+      "Question Type": "Checkbox",
+      "Option 1": "Attributes from two tables populate a table with the same name as a ServiceNow CMDB table.",
+      "Option 2": "If a value is unmatched, it is still merged into the Target Table.",
+      "Option 3": "For this operation to run, there must be some data in the process.executablePath variable.",
+      "Option 4": "This operation is more than likely a part of a step on a pattern set to Application Pattern Type.",
+      "Option 5": "",
+      "Correct Answer": "3, 4, 5"
+  },
+  {
+      "Question Text": "Which choice best describes what happens when, by default, duplicate CIs are detected during identification and reconciliation?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "The next discovery is stopped for the CI that is duplicated.",
+      "Option 2": "A notification is sent to the CI owner.",
+      "Option 3": "An associated identification rule is created automatically.",
+      "Option 4": "Each set of duplicate CIs is added to a de-duplication task.",
+      "Option 5": "",
+      "Correct Answer": "4"
+  },
+  {
+      "Question Text": "Which choice allows the following functionality to occur?  If this value is set to 1000 and a discovery must scan 10,000 IP addresses using a single MID Server, it creates 10 Shazzam probes with each probe scanning 1000 IP addresses.",
+      "Question Type": "Multiple Choice",
+      "Option 1": "MID Server Clusters",
+      "Option 2": "Behaviors",
+      "Option 3": "Shazzam Batch Size",
+      "Option 4": "MID Server selection method",
+      "Option 5": "",
+      "Correct Answer": "3"
+  },
+  {
+      "Question Text": "The following shows part of the Windows OS - Servers pattern in Pattern Designer: Which of the steps above use(s) a shared library?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Both steps",
+      "Option 2": "Step 26",
+      "Option 3": "Neither step",
+      "Option 4": "Step 25",
+      "Option 5": "",
+      "Correct Answer": "4"
+  },
+  {
+      "Question Text": "With multiple CI data sources, which choice is the best for determining which source can update a CI attribute?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Business Rules",
+      "Option 2": "Data Certification",
+      "Option 3": "Transform Maps",
+      "Option 4": "Reconciliation Rules",
+      "Option 5": "",
+      "Correct Answer": "4"
+  },
+  {
+      "Question Text": "File-based Discovery is triggered during the .",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Exploration Phase",
+      "Option 2": "Scan Phase",
+      "Option 3": "Identification Phase",
+      "Option 4": "Classify Phase",
+      "Option 5": "",
+      "Correct Answer": "1"
+  },
+  {
+      "Question Text": "Which of the following is required for a MID Server to have access to automatically stay up-to-date with instance versions?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "docs.servicenow.com",
+      "Option 2": "service-now.com",
+      "Option 3": "install.service-now.com",
+      "Option 4": "developer.service-now.com",
+      "Option 5": "",
+      "Correct Answer": "3"
+  },
+  {
+      "Question Text": "What role is needed by the MID Server's user account to interact with a ServiceNow instance?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "mid_server",
+      "Option 2": "sm_mid",
+      "Option 3": "mid_discovery",
+      "Option 4": "discovery_admin",
+      "Option 5": "",
+      "Correct Answer": "1"
+  },
+  {
+      "Question Text": "Which of the following can be used in the Debug Identification Section in Debug Mode for an infrastructure pattern? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "AWS Endpoint",
+      "Option 2": "PID",
+      "Option 3": "IP",
+      "Option 4": "Host Name",
+      "Option 5": "",
+      "Correct Answer": "3, 4"
+  },
+  {
+      "Question Text": "Which choice represents the three best ways of extending Discovery?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Orchestration, Classifiers, Probes & Sensors",
+      "Option 2": "Classifiers, Probes & Sensors, Discovery Patterns",
+      "Option 3": "Classifiers, Fingerprinting, Probes & Sensors",
+      "Option 4": "Orchestration, Classifiers, Discovery Patterns",
+      "Option 5": "",
+      "Correct Answer": "2"
+  },
+  {
+      "Question Text": "Which choice will populate the Location field for a discovered CI?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Location field for a Discovery Schedule",
+      "Option 2": "Location field for a parent CI Type",
+      "Option 3": "Location report from the Discovery Dashboard",
+      "Option 4": "Location field for a Port Probe",
+      "Option 5": "",
+      "Correct Answer": "1"
+  },
+  {
+      "Question Text": "What related list on a classifier dictates which Horizontal Pattern probe is launched?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Classification Criteria",
+      "Option 2": "Discovery Log",
+      "Option 3": "Triggers probes",
+      "Option 4": "Pattern probes",
+      "Option 5": "",
+      "Correct Answer": "4"
+  },
+  {
+      "Question Text": "From an SNMP Query pattern operation, which of the choices are valid Variable Types? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "Test",
+      "Option 2": "CI Type",
+      "Option 3": "Table",
+      "Option 4": "Scalar",
+      "Option 5": "",
+      "Correct Answer": "2, 4"
+  },
+  {
+      "Question Text": "Which choice best describes how to use a Behavior for discovery?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "The Behavior drop-down menu on a Discovery IP Range.",
+      "Option 2": "The MID Server selection method on a Discovery Schedule.",
+      "Option 3": "The Behavior checkbox on a CI.",
+      "Option 4": "The Behavior drop-down menu on a Discovery Status.",
+      "Option 5": "",
+      "Correct Answer": "2"
+  },
+  {
+      "Question Text": "Which of the following choices are only used for the Application Pattern Type? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "Identification Section",
+      "Option 2": "Operating System",
+      "Option 3": "Run Order",
+      "Option 4": "CI Type",
+      "Option 5": "",
+      "Correct Answer": "2, 3"
+  },
+  {
+      "Question Text": "A discovery runs against a Windows Server returning the following attribute values for the first time:  name = WindowsSN1 serial_number = 12321 A subsequent discovery is ran against a different Windows Server returning the following attribute values: name = WindowsSN2 serial_number = 12321  With only base system CI Identifiers configured, which of the following is true?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "A Windows Server CI is created, then updated with WindowsSN2 as the name.",
+      "Option 2": "A Windows Server CI is created, then updated with WindowsSN1 as the name.",
+      "Option 3": "Two Windows Sewer CIs are created, with WindowsSN1 AND WindowsSN2 for names.",
+      "Option 4": "Two Windows Server CIs are created, without serial_number values.",
+      "Option 5": "",
+      "Correct Answer": "4"
+  },
+  {
+      "Question Text": "A network device has both an SSH port and an SNMP port open. Discovery tries the SSH probe first and it fails. This triggers the SNMP probe, which succeeds. Discovery uses SNMP first for subsequent discoveries on that device.  What discovery functionality allows the above to happen?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "IP service affinity",
+      "Option 2": "MID Server affinity",
+      "Option 3": "Credential affinity",
+      "Option 4": "Classification",
+      "Option 5": "",
+      "Correct Answer": "1"
+  },
+  {
+      "Question Text": "In order to use Debug from the Pattern Designer, you must have what?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Service Mapping installed",
+      "Option 2": "a proxy server",
+      "Option 3": "the admin role",
+      "Option 4": "a discoverable CI",
+      "Option 5": "",
+      "Correct Answer": "1"
+  },
+  {
+      "Question Text": "Which choice best describes a horizontal discovery pattern?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Classifiers that execute probes",
+      "Option 2": "Steps that execute operations",
+      "Option 3": "Port scanning tool",
+      "Option 4": "Credential depot",
+      "Option 5": "",
+      "Correct Answer": "2"
+  },
+  {
+      "Question Text": "When installing a MID Server on a Windows platform, which right must be associated when creating a Service Account?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "MID Server User Role",
+      "Option 2": "Local Admin",
+      "Option 3": "Log on as service",
+      "Option 4": "Domain Admin",
+      "Option 5": "",
+      "Correct Answer": "2"
+  },
+  {
+      "Question Text": "For the Set Parameter Value operation, which of the following is used in the syntax to declare a constant, unchanging Value?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Dollar sign",
+      "Option 2": "Hash tag",
+      "Option 3": "Quotes",
+      "Option 4": "Brackets",
+      "Option 5": "",
+      "Correct Answer": "3"
+  },
+  {
+      "Question Text": "Discovery finds and maps dependencies for the following types of storage devices. (Choose three.)",
+      "Question Type": "Checkbox",
+      "Option 1": "Direct-attached storage (DAS)",
+      "Option 2": "Storage area network (SAN)",
+      "Option 3": "Multiple area network (MAN)",
+      "Option 4": "Network-attached storage (NAS)",
+      "Option 5": "",
+      "Correct Answer": "1, 2, 4"
+  },
+  {
+      "Question Text": "Which of the following choices explain differences between Service Mapping and Discovery? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "Discovery requires agent installation to find hardware devices, Service Mapping requires agents for software.",
+      "Option 2": "Discovery addresses inventory-related use-cases, while Service Mapping allows for the creation of accurate maps of application service topologies.",
+      "Option 3": "Discovery finds applications and devices on your network, Service Mapping monitors those devices.",
+      "Option 4": "Discovery utilizes IP address ranges for initial discovery, Service Mapping uses entry points.",
+      "Option 5": "",
+      "Correct Answer": "3, 4"
+  },
+  {
+      "Question Text": "A Discovery Schedule contains a /24 subnet IP Range and a Shazzam batch size of 5000. How many times will a Shazzam probe be launched during discovery?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "1",
+      "Option 2": "254",
+      "Option 3": "2",
+      "Option 4": "5000",
+      "Option 5": "",
+      "Correct Answer": "3"
+  },
+  {
+      "Question Text": "Given a custom column named u_custom_column on table cmdb_ci_linux_server, which variable syntax should be used to populate the column in a horizontal discovery pattern using the Set Parameter Value operation?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "$u_custom_column[1].cmdb_ci_linux_server",
+      "Option 2": "$cmdb_ci_linux_server[*].u_custom_column",
+      "Option 3": "$cmdb_ci_linux_server.u_custom_column.INSERT",
+      "Option 4": "$user_var_custom_column",
+      "Option 5": "",
+      "Correct Answer": "3"
+  },
+  {
+      "Question Text": "After navigating to an Automaton Error Messages list from Discovery > Home, how are the options on the right navigation pane categorized? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "SELECT ONE",
+      "Option 2": "SELECT ALL",
+      "Option 3": "ACTION ON ALL",
+      "Option 4": "ACTION ON SELECTED",
+      "Option 5": "",
+      "Correct Answer": "2, 3"
+  },
+  {
+      "Question Text": "Which best describes Discovery schedule of type Configuration Item?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Creates only a list of discovered IPs in both IPv4 and IPv6 formats.",
+      "Option 2": "Verifies Configuration Item data from the scanned IP ranges against the data in the CMDB.",
+      "Option 3": "Collects complete information from the scanned IP ranges and sends it to the CMDB.",
+      "Option 4": "Directly populates records in the assets table.",
+      "Option 5": "",
+      "Correct Answer": "4"
+  },
+  {
+      "Question Text": "Which operation is used to change from the default credentials to any other appropriate credentials in a horizontal pattern?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Change credentials",
+      "Option 2": "Change user",
+      "Option 3": "Alternate credentials",
+      "Option 4": "Alternate user",
+      "Option 5": "",
+      "Correct Answer": "2"
+  },
+  {
+      "Question Text": "Based on the following images, which choice best describes what occurs if Discovery sets the name  attribute of a discovered Windows Server CI to 'Windows1' and then Altiris discovery runs detecting 'Windows2' for the name attribute on the same CI? ",
+      "Question Type": "Multiple Choice",
+      "Option 1": "The name of the CI changes to 'Windows2'.",
+      "Option 2": "The name of the CI stays 'Windows1'.",
+      "Option 3": "The CI is not discovered because Discovery is not listed in either image.",
+      "Option 4": "The name of the CI does not populate with either discovery.",
+      "Option 5": "",
+      "Correct Answer": "1"
+  },
+  {
+      "Question Text": "Which of the below choices are needed for Quick Discovery? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "Target IP  Reference: https://docs.servicenow.com/bundle/quebec-it-operations- management/page/product/discovery/ concept/discovery-quick-start.html",
+      "Option 2": "PID",
+      "Option 3": "MID Server",
+      "Option 4": "Discovery Schedule",
+      "Option 5": "",
+      "Correct Answer": "3, 4"
+  },
+  {
+      "Question Text": "Which method is used by Discovery to determine if a Host IP is active or alive?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Classification",
+      "Option 2": "Traceroute",
+      "Option 3": "Port Scan",
+      "Option 4": "Ping",
+      "Option 5": "",
+      "Correct Answer": "1"
+  },
+  {
+      "Question Text": "A config file for an application has the following three lines: Line 1: app build 1.2.3.4 version 5.14 Line 2: installation_dir=c:\\opt\\bin Line 3: build_type=Server. Which methods below will extract the build and version numbers from these lines using a horizontal discovery pattern? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "Parse File operation with Delimited Text parsing strategy",
+      "Option 2": "Get Process operation with correct Port",
+      "Option 3": "Find Matching URL operation with Target Variable",
+      "Option 4": "Parse File operation with Regular Expression parsing strategy",
+      "Option 5": "",
+      "Correct Answer": "2, 4"
+  },
+  {
+      "Question Text": "For CMDB Health, relationships can be which of the following choices? (Choose three.)",
+      "Question Type": "Checkbox",
+      "Option 1": "Orphan",
+      "Option 2": "Stale",
+      "Option 3": "Required",
+      "Option 4": "Recommended",
+      "Option 5": "",
+      "Correct Answer": "1, 2, 5"
+  },
+  {
+      "Question Text": "By default, which of the following are automatically available as variables for horizontal discovery patterns? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "infrastructure_system",
+      "Option 2": "windows_cmdb_ci",
+      "Option 3": "computer_system",
+      "Option 4": "The CI Type on the Discovery Pattern form",
+      "Option 5": "",
+      "Correct Answer": "3, 4"
+  },
+  {
+      "Question Text": "For the Parse Variable pattern operation, what is required to have two different parsing methods to populate  variables?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Two different steps.",
+      "Option 2": "Two different Debug Mode sessions.",
+      "Option 3": "Two different Define Parsing selections on the same step.",
+      "Option 4": "A tabular and a scalar variable.",
+      "Option 5": "",
+      "Correct Answer": "3"
+  },
+  {
+      "Question Text": "The CMDB contains which of the following record types? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "Relation Type",
+      "Option 2": "Asset",
+      "Option 3": "Model",
+      "Option 4": "Configuration Item (CI)",
+      "Option 5": "",
+      "Correct Answer": "1, 4"
+  },
+  {
+      "Question Text": "Based on the following image, which of the following choices is also true about London Linux Servers? ",
+      "Question Type": "Multiple Choice",
+      "Option 1": "It is a CMDB Group with Default Group type.",
+      "Option 2": "It is a CMDB Group with Dashboard Group type.",
+      "Option 3": "It is a Datacenter Group in London.",
+      "Option 4": "It is a CMDB Group with Health Group type.",
+      "Option 5": "",
+      "Correct Answer": "4"
+  },
+  {
+      "Question Text": "What does the MID Server need to collect vCenter events?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "vCenter probes",
+      "Option 2": "MID SNMP Trap Listener extension",
+      "Option 3": "Firewall",
+      "Option 4": "vCenter Event Collector extension",
+      "Option 5": "",
+      "Correct Answer": "4"
+  },
+  {
+      "Question Text": "When is the Extension section in a horizontal pattern executed?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "After the Identification sections",
+      "Option 2": "As part of the port scan",
+      "Option 3": "Before the Identification sections",
+      "Option 4": "As part of the post sensor processing script",
+      "Option 5": "",
+      "Correct Answer": "1"
+  },
+  {
+      "Question Text": "Which of the following pattern operations query targets? (Choose two.)",
+      "Question Type": "Checkbox",
+      "Option 1": "Parse Variable",
+      "Option 2": "Merge Table",
+      "Option 3": "WMI Query",
+      "Option 4": "Get Process",
+      "Option 5": "",
+      "Correct Answer": "2, 3"
+  },
+  {
+      "Question Text": "What are the two main options within a Parse File operation?",
+      "Question Type": "Multiple Choice",
+      "Option 1": "Select File and Define Parsing",
+      "Option 2": "Match and Select File",
+      "Option 3": "Discover Now and Quick Discovery",
+      "Option 4": "Select Operating System and Method",
+      "Option 5": "",
+      "Correct Answer": "1"
+  }
+]

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2023-12-20 18:28:52">
+<sys_script_include action="INSERT_OR_UPDATE">
+<access>public</access>
+<active>true</active>
+<api_name>global.recordToJSON</api_name>
+<caller_access/>
+<client_callable>true</client_callable>
+<description/>
+<name>recordToJSON</name>
+<script><![CDATA[var recordToJSON = Class.create();
+recordToJSON.prototype = Object.extendsObject(AbstractAjaxProcessor, {
+    createObjectArr: function(tableName, queryString, ignoreList, format) {
+        try {
+            var ignoreListObject = {};
+            ignoreList.forEach(function(value) {
+                ignoreListObject[value] = true;
+            });
+
+            var sysID = [];
+            var gRecord = new GlideRecord(tableName);
+            gRecord.addEncodedQuery(queryString);
+            gRecord.query();
+            while (gRecord.next()) {
+                sysID.push(gRecord.sys_id + '');
+            }
+
+
+            var output = sysID.map(function(element) {
+                var obj = {};
+                var now_GR = new GlideRecordUtil().getGR(tableName, element);
+                new GlideRecordUtil().populateFromGR(obj, now_GR, ignoreListObject);
+                return obj;
+            });
+            if (format) {
+                return JSON.stringify(output,null,2);
+            } else {
+                return output;
+            }
+
+        } catch (ex) {
+            var message = ex.message;
+            gs.error("ERROR: Please, validate inputs are correct." + "\n" + "Error Message: " + message);
+            return null;
+        }
+    },
+    type: 'recordToJSON'
+});]]></script>
+<sys_class_name>sys_script_include</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2023-12-20 18:24:58</sys_created_on>
+<sys_id>c735296447d7f110d3112b92e36d43ce</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_name>recordToJSON</sys_name>
+<sys_package display_value="Global" source="global">global</sys_package>
+<sys_policy/>
+<sys_scope display_value="Global">global</sys_scope>
+<sys_update_name>sys_script_include_c735296447d7f110d3112b92e36d43ce</sys_update_name>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2023-12-20 18:24:58</sys_updated_on>
+</sys_script_include>
+</unload>
